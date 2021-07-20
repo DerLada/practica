@@ -21,6 +21,8 @@ public class ExtraFunction {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     Actions action;
+    
+    //метод перехода по ссылкам
     public void linkMenu() {
         action = new Actions(driver);
         WebElement menuBtn = driver.findElement(By.xpath("html/body/div[2]/ul[1]/li[1]/a"));
