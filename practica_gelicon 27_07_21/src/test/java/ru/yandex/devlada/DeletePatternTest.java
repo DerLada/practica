@@ -35,7 +35,7 @@ public class DeletePatternTest {
     }
 
     @Test
-    public void emptyNamePatternTest() throws AWTException, InterruptedException {
+    public void deletePatternTest() throws AWTException, InterruptedException {
         searchPage.clickNameSearch();
         //ПРОБЛЕМА ВЫБРАТЬ ШАБЛОН ПОИСКА ИЗ СПИСКА
         Robot robot = new Robot();
