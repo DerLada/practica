@@ -33,7 +33,7 @@ public class SearchPatternTest {
     }
 
     @Test
-    public void emptyNamePatternTest() throws AWTException, InterruptedException {
+    public void searchPatternTestt() throws AWTException, InterruptedException {
         searchPage.clickNameSearch();
         //ПРОБЛЕМА ВЫБРАТЬ ШАБЛОН ПОИСКА ИЗ СПИСКА
 
